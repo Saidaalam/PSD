@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+ul{
+    list-style:none ;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .logo{
+    width: 40%;
+    margin: auto;
+}
+nav .menu{
+    width: 60%;
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block ;
+}
+nav .menu ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: block;
+}
+nav{
+    background-color: #02918c;
+    width: 1280px;
+    margin: auto;
+}
+.banner{
+    background-image: url(../MYFOLIO.jpg);
+    height: 728px;
+    width: 1280px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    position:relative ;
+ }
+ .banner .text h3{
+    padding-top: 216px;
+    font-size: 30px;
+    font-weight: 400;
+ }
+ .banner .text h1{
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+ }
+ .banner .text p{
+    font-size: 18px;
+ }
+ .banner .text img{
+    display: block;
+    margin:50px auto;
+ 
+ }
+ .banner .text a{
+    display: inline-block;
+    color: #0b1016;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: #cfc91d;
+    padding: 17px 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+ }
+ 
+ 
